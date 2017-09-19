@@ -6,6 +6,7 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
 
+<<<<<<< HEAD
   return document.querySelector('#nested .target');
 
 }
@@ -23,5 +24,8 @@ function increaseRankBy(n) {
 function deepestChild() {
 
   return document.getElementById('grand-node').querySelector('div div div div div')
+=======
+  return document.querySelector(#app.unranked-list);
+>>>>>>> 0187a7cd933b7c4f362dd0df63cc09cf71291e5e
 
 }
